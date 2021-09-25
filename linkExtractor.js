@@ -1,6 +1,7 @@
 // @ts-check
 const playwright = require('playwright');
-const generateHashCode = require('./generateHashCode');
+const generateHashCode = require('./generateHashCode.js');
+
 const { expect } = require('./playwright.config');
 
 
