@@ -18,6 +18,7 @@ const config = {
   expect: {
     toMatchSnapshot: { threshold: 0.8 },
   },
+  setupFilesAfterEnv: ["expect-playwright"],
 };
 
 module.exports = config;
